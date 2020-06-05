@@ -45,7 +45,7 @@ const App = (props) => {
       <div> has {votes} votes</div>
       <Button clicked = {() => VoteAnec(selected,votes,setVotes)} text = 'vote'/>
       <Button clicked = {() => RandomizeAnec(setSelected,selected,votes,setVotes)} text = 'next anecdote'/>
-      <Header title = 'Anecdote wtih most votes'/>
+      <Header title = 'Anecdote with most votes'/>
       <div> {props.anecdotes[points.indexOf(Math.max(...points))]}</div>
       <div> has {[Math.max(...points)]} votes</div>
     </div>

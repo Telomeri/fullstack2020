@@ -1,1 +1,0 @@
-Sisältää kurssitiedot tehtävän
